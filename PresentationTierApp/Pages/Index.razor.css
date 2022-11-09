@@ -1,0 +1,46 @@
+.mainView
+{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    border: 1px solid #0dcaf0;
+    padding: 20px;
+}
+
+.centered
+{
+    text-align: center;
+}
+
+.Btn
+{
+    font-family: "Georgia", Georgia, serif;
+    border-radius: 3px;
+    border-color: black;
+    height: 30px;
+    width: 80px;
+}
+
+input[type=text]
+{
+    color: #bcbebf;
+    width: 70%;
+    text-align: left;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 2px solid #0b5ed7;
+}
+
+input[type=password]
+{
+    width: 20%;
+    text-align: left;
+    margin-left: 20px;
+    border: 2px solid #0b5ed7;
+}
+
+input[type=date]
+{
+    text-align: left;
+    margin-left: 20px;
+}

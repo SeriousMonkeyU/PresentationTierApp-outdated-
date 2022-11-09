@@ -1,0 +1,15 @@
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\bin\Debug\net6.0\HTTPClients.deps.json
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\bin\Debug\net6.0\HTTPClients.dll
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\bin\Debug\net6.0\HTTPClients.pdb
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\bin\Debug\net6.0\Shared.dll
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\bin\Debug\net6.0\Shared.pdb
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\HTTPClients.csproj.AssemblyReference.cache
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\HTTPClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\HTTPClients.AssemblyInfoInputs.cache
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\HTTPClients.AssemblyInfo.cs
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\HTTPClients.csproj.CoreCompileInputs.cache
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\HTTPClients.csproj.CopyComplete
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\HTTPClients.dll
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\refint\HTTPClients.dll
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\HTTPClients.pdb
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\HTTPClients\obj\Debug\net6.0\ref\HTTPClients.dll

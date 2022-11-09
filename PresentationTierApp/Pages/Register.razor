@@ -1,0 +1,61 @@
+﻿@page "/Register"
+@using HTTPClients.Implementations
+@using global::Shared.DTOs
+@using System.Collections.Specialized
+@using System.Net
+@using global::Shared.Models
+@inject NavigationManager UriHelper
+
+<PageTitle>Authorization page</PageTitle>
+
+<h1>Create an account!</h1>
+
+<p>Here you can create an account for Spenditorium.</p>
+
+<form>
+  <div class="mainView">
+    <label for="fName">Full name: </label>
+    <input type="text" id="fName" name="fullName" @bind="fName" @oninput="@((e) => { fName = (string)e.Value; })"><br>
+    <div class="space"></div>
+    <label for="email">Email: </label>
+    <input type="text" id="email" name="email" @bind="email" @oninput="@((e) => { email = (string)e.Value; })"><br>
+    <div class="space"></div>
+    <label for="dob">Date of Birth: </label>
+    <input type="date" id="dob" name="dob" @bind="dob" @oninput="@((e) => { dob = (DateTime)e.Value; })"><br>
+    <div class="space"></div>
+    <label for="username">Username: </label>
+    <input type="text" id="username" name="username" minlength="3" @bind="username" @oninput="@((e) => { username = (string)e.Value; })" required><br>
+    <div class="space"></div>
+    <label for="password">Password: </label>
+    <input type="password" id="password" name="password" minlength="3" @bind="password" @oninput="@((e) => { password = (string)e.Value; })" required><br>
+    
+    
+    <div class="space"></div>
+    <button @onclick="tryLogin" class="loginBtn" IsToggle="false" IsPrimary="true">Login</button>
+    </div>
+</form>
+
+@code {
+
+  private string username { get; set; } = "";
+  private string password { get; set; } = "";
+  
+  private string fName { get; set; } = "Test Tester";
+  private string email { get; set; } = "test@mail.com";
+  private DateTime dob { get; set; } = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+  private int pN { get; set; } = 91456412;
+
+
+
+
+  private async Task tryLogin()
+  {
+    ClientCreationDTO dto = new ClientCreationDTO(0, username, password);
+    HttpClient httpClient = new HttpClient();
+    ClientHttpClient client = new ClientHttpClient(httpClient);
+    await client.Create(dto);
+    Console.WriteLine(username + ", " + password + ".");
+    Console.WriteLine(client.ToString());
+    UriHelper.NavigateTo("/Index");
+  }
+}

@@ -1,0 +1,48 @@
+
+
+.mainView[b-5duouib5f8]
+{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    border: 1px solid #0dcaf0;
+    padding: 20px;
+}
+
+.space[b-5duouib5f8]
+{
+    height: 25px;
+    width: 100%;
+    margin: auto;
+}
+
+label[b-5duouib5f8]
+{
+    width: 20%;
+    min-width: 50px;
+    text-align: left;
+}
+
+input[type=text][b-5duouib5f8]
+{
+    color: #bcbebf;
+    width: 70%;
+    text-align: left;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 2px solid #0b5ed7;
+}
+
+input[type=password][b-5duouib5f8]
+{
+    width: 20%;
+    text-align: left;
+    margin-left: 20px;
+    border: 2px solid #0b5ed7;
+}
+
+input[type=date][b-5duouib5f8]
+{
+    text-align: left;
+    margin-left: 20px;
+}

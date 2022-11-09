@@ -1,0 +1,27 @@
+@page "/Login"
+@inject NavigationManager _nav
+
+<h3>Login</h3>
+
+<form>
+    <div class="mainView">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="login"@bind="username" @oninput="@((e) => { username = (string)e.Value; })" required><br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="pass"@bind="password" @oninput="@((e) => { password = (string)e.Value; })" required><br>
+        <button @onclick="@LoggedIn" class="Btn" IsToggle="false" IsPrimary="true">Login</button>
+    </div>
+</form>
+
+@code {
+    
+    private string? username { get; set; }
+    private string? password { get; set; }
+
+    
+    private void LoggedIn()
+    {
+        _nav.NavigateTo("/MainView");
+    }
+}
