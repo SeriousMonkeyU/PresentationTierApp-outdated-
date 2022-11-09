@@ -1,10 +1,43 @@
 @page "/MainView"
-<h3>mainView</h3>
+@using Microsoft.AspNetCore.Mvc
+<h3>Home Page</h3><br>
 
 <form>
-    vxzxzvxzv
+    
+    <h2>Profile</h2>
+    
+    Full name: Jack Septiceye<br>
+    DOB: 20/02/2001<br>
+    Phone number: +4525215**<br>
+
+    <br>
+    <br>
+    <br>
+    
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="/ElectricityProvider" Match="NavLinkMatch.All">
+            <span class="oi oi-home" aria-hidden="true"></span> Electricity Provider
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <span class="oi oi-home" aria-hidden="true"></span> Heating Provider
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <span class="oi oi-home" aria-hidden="true"></span> Water Provider
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <span class="oi oi-home" aria-hidden="true"></span> Housing Provider
+        </NavLink>
+    </li>
 </form>
 
 @code {
+    
+    
     
 }

@@ -33,3 +33,4 @@ C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\Present
 C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\PresentationTierApp\obj\Debug\net6.0\scopedcss\Pages\Register.razor.rz.scp.css
 C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\PresentationTierApp\obj\Debug\net6.0\PresentationTierApp.csproj.CopyComplete
 C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\PresentationTierApp\obj\Debug\net6.0\scopedcss\Pages\Login.razor.rz.scp.css
+C:\Denmark studies\3rd semester\Spenditorium\GitCode\PresentationTierApp\PresentationTierApp\obj\Debug\net6.0\scopedcss\Pages\ElectricityProvider.razor.rz.scp.css
